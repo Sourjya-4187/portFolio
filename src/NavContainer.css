@@ -1,0 +1,97 @@
+.nav-container {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+
+}
+
+titles-cont {
+    position: absolute;
+    right: -50px;
+}
+
+.titles {
+    position: absolute;
+}
+
+.nav-title {
+    font-size: 4em;
+    color: white;
+    text-align: left;
+}
+
+.titles-blue {
+    color: #0e2a47
+}
+
+.main-nav {
+    position: relative;
+    display: inline-block;
+    margin: 0px 100px 0px 0px;
+}
+
+.explore {
+    position: absolute;
+    right: -54px;
+    bottom: 26px;
+    font-size: 1.2em;
+    color: #0e2a47;
+}
+
+.small-nav {
+    font-size: 0.25em;
+    position: absolute;
+    padding: 10px;
+    bottom: 26px;
+}
+
+.small-link-name {
+    margin: 2px 0px;
+}
+
+.explore a {
+    color: #0e2a47;
+    text-decoration: underline overline;
+    text-underline-offset: 5px;
+
+}
+
+.explore a:hover {
+    color: white;
+    text-underline-offset: 5px;
+    background-color: #0e2a47;
+
+}
+
+.small-link-name a {
+    text-decoration: none;
+    color: white;
+}
+
+.small-link-name a:hover {
+    color: wheat;
+}
+
+@media only screen and (max-width : 460px) {
+    .nav-container {
+        width: 178px;
+        height: 178px;
+    }
+
+    .nav-title {
+        font-size: 3.75em;
+    }
+}
+
+
+@media only screen and (max-width : 320px) {
+    .nav-container {
+        width: 178px;
+        height: 178px;
+    }
+
+    .nav-title {
+        font-size: 3.75em;
+    }
+}

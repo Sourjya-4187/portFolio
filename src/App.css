@@ -1,38 +1,299 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Oswald&display=swap');
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    min-width: 320px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dp {
+    position: relative;
+    z-index: 2;
+    max-height: 350px;
+    border-radius: 200%;
+    left: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.image-box {
+    position: relative;
+    float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.topBoxDark {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background-image: url('../src/images/Nbg.jpg');
+    overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.topBoxWhite {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background-image: url('../src/images/Nbg.jpg');
+    overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-image {
+    position: absolute;
+    height: 392px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+}
+
+.random1 {
+    position: absolute;
+    z-index: -1;
+    height: 31vh;
+    top: 0;
+    right: 0;
+}
+
+.random2 {
+    position: absolute;
+    z-index: -1;
+    height: 31vh;
+    left: 0;
+    top: 50%;
+}
+
+.random3 {
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    left: 53%;
+    top: 73%;
+}
+
+.mainBodyDark {
+    padding: 40px 250px;
+    background-color: #02021f;
+}
+
+.mainBodyWhite {
+    padding: 40px 250px;
+    background-color: white;
+}
+
+.title {
+    display: inline-block;
+    width: 40%;
+    margin: 15px 50px;
+}
+
+.name {
+    font-size: 2.5em;
+    color: gray;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.middle-container-image {
+    text-align: center;
+}
+
+.topic-container {
+    position: relative;
+    margin-top: 40px;
+    background-image: url('./images/Nbg.jpg');
+}
+
+@media only screen and (max-width : 1366px) {
+    .main {
+        padding: 40px 100px;
+    }
+
+    .footer-image {
+        height: 364px;
+    }
+
+    .dp {
+        max-height: 324px;
+    }
+}
+
+
+@media only screen and (max-width : 1200px) {
+    .main {
+        padding: 40px 100px;
+    }
+
+    .footer-image {
+        height: 342px;
+    }
+
+    .dp {
+        max-height: 306px;
+    }
+}
+
+@media only screen and (max-width : 920px) {
+    .main {
+        padding: 42px 50px;
+    }
+
+    .footer-image {
+        height: 280px;
+    }
+
+    .dp {
+        max-height: 250px;
+    }
+
+    .random3 {
+        top: 110%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .main {
+        padding: 0;
+    }
+
+    .footer-image {
+        height: 280px;
+    }
+
+    .dp {
+        max-height: 250px;
+    }
+
+    .title {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .main {
+        text-align: middle-container-image;
+    }
+
+    .image-box {
+        float: none;
+        width: 250px;
+        margin: auto;
+    }
+
+    .random3 {
+        left: 60%;
+        bottom: -66%;
+        top: initial;
+    }
+
+    .random2 {
+        bottom: -30%;
+        top: initial;
+        left: -20px;
+    }
+
+    .random1 {
+        z-index: 0;
+        top: -57px;
+        right: 0px;
+        height: 23vh;
+    }
+
+    .topic-container {
+        margin-top: 50px;
+    }
+
+    .topBoxDark{
+        box-shadow: none;
+    }
+
+    .topBoxWhite{
+        box-shadow: none;
+    }
+
+}
+
+
+@media only screen and (max-width : 460px) {
+    .random3 {
+        left: 45%;
+        bottom: -96%;
+        top: initial;
+    }
+
+    .random2 {
+        bottom: -25%;
+        top: initial;
+    }
+
+    .random1 {
+        z-index: 0;
+        top: -57px;
+        right: 0px;
+        height: 23vh;
+
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .random3 {
+        left: 40%;
+        bottom: -110%;
+        top: initial;
+    }
+
+    .random2 {
+        bottom: -25%;
+        top: initial;
+    }
+
+    .random1 {
+        z-index: 0;
+        top: -57px;
+        right: 0px;
+        height: 23vh;
+    }
+}
+
+.social-links-icons {
+    height: 25px;
+    margin: 10px 5px;
+}
+
+.dark-mode-icons {
+    height: 32px;
+    margin: 0px 9px;
+}
+
+.links-social {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutUs-bg {
+    background-image: url('../src/images/Nbg.jpg');
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    padding:48px
+}
+
+.paper-icon {
+    margin-top: -40px;
+    margin-left: 10px;
+    width: 34px;
+    height: 22px;
+    border-bottom: none;
+    border-left: 6px solid;
+    border-right: 6px solid;
+    border-top: none;
+    position: relative;
+    z-index: 5;
+}
+
+.anchor-links {
+    text-decoration: none;
+    color: black;
 }
