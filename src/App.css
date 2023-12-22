@@ -297,3 +297,27 @@ body {
     text-decoration: none;
     color: black;
 }
+  
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10px;
+  }
+  
+  .progress-value {
+    animation: load 4s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #38543a;
+    height: 10px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: var(--my-var); }
+  }
