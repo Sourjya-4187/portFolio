@@ -7,14 +7,6 @@ import Projects from './components/Projects';
 
  let darkModeLogo = require('./images/dark-mode.png');
 
-// const BackgroundImage = () => {
-//   return (
-//     <div className='backgroundImage'>
-//       <img src={Logo} alt="My" />
-//     </div>
-//   );
-// };
-
 function App() {
   const [isdarkModeEnabled,setIsDarkModeEnabled] = useState(true);
   return (
