@@ -52,8 +52,9 @@ const AboutMe = ({darkMode='true'}) => {
                             </Typography>
                         </CardContent>
                         <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content'}}>
-                            <Typography size="small">UI-Bank Website</Typography>
-                            <Typography size="small">UI-Ad Server</Typography>
+                            <a href='#Digital Bank UI' className='anchor-links'>Digital Bank UI</a>
+                            <a href='#Ad Manager UI' className='anchor-links'>Ad Manager UI</a>
+
                         </CardActions>
                     </Card>
                     </div>

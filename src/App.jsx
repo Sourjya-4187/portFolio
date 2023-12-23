@@ -3,6 +3,7 @@ import './App.css';
 import TitleCard from './components/TitleCard';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
  let darkModeLogo = require('./images/dark-mode.png');
 
@@ -26,6 +27,7 @@ function App() {
         <TitleCard darkMode={isdarkModeEnabled}/>
         <AboutMe darkMode={isdarkModeEnabled}/>
         <Skills/>
+        <Projects/>
     </div>
     
   );
