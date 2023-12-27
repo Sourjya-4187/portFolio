@@ -73,11 +73,11 @@ const AboutMe = ({darkMode='true'}) => {
                             </Typography>
                         </CardContent>
                         <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content'}}>
-                            <Typography size="small">Interest</Typography>
-                            <Typography size="small">Education</Typography>
-                            <Typography size="small">Work Experience TimeLine</Typography>
-                            <Typography size="small">Languages</Typography>
-                            <Typography size="small">Contact Me</Typography>
+                            <a href='#Interests' className='anchor-links'>Interests</a>
+                            <a href='#Education' className='anchor-links'>Education</a>
+                            <a href='#Work Experience TimeLine' className='anchor-links'>Work Experience TimeLine</a>
+                            <a href='#Languages' className='anchor-links'>Languages</a>
+                            <a href='#Contact' className='anchor-links'>Contact Me</a>
                         </CardActions>
                     </Card>
                     </div>
