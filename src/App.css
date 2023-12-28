@@ -321,3 +321,9 @@ body {
     0% { width: 0; }
     100% { width: var(--my-var); }
   }
+
+  .anchor-links2 {
+    cursor: pointer;
+    color: cornflowerblue;
+    text-decoration: underline;
+}

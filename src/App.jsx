@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Personal from './components/Personal';
+import ContactMe from './components/ContactMe';
 
  let darkModeLogo = require('./images/dark-mode.png');
 
@@ -22,6 +23,7 @@ function App() {
         <Skills/>
         <Projects/>
         <Personal/>
+        <ContactMe/>
     </div>
     
   );
