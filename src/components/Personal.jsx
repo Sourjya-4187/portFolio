@@ -115,7 +115,7 @@ const Personal = () => {
                                         </Timeline>
                                 </div>
                                 {/* TimeLine Section ends */}
-                                <div style={{ display:'flex',justifyContent:'space-between',flexDirection:'row',columnGap:'12px',paddingLeft:'8px',paddingRight:'8px',flexWrap:'wrap'}}>
+                                <div style={{ display:'flex',justifyContent:'space-evenly',flexDirection:'row',columnGap:'12px',paddingLeft:'8px',paddingRight:'8px',flexWrap:'wrap'}}>
                                     <div style={{display:'inline-block'}} id="Education">
                                         <div style={{fontSize:'1.4em',padding:'20px',color:'white'}}>
                                             Education
