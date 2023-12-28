@@ -3,8 +3,6 @@ import React from "react";
 import myqr from '../images/sourjyaQR.svg';
 import { FavoriteBorder } from "@mui/icons-material";
 
-let Bg = require('../images/Nbg.jpg');
-
 const theme = createTheme({
     typography: {
       fontFamily:'Oswald'
@@ -21,7 +19,7 @@ const ContactMe = () => {
     return(
         <>
             <ThemeProvider theme={theme}>
-                <div className="topic-container middle-container-image" style={{ backgroundImage:{Bg}}}>
+                <div className="topic-container middle-container-image">
                     <div style={{marginBottom:'40px'}} id='Contact'>
                         <div style={Styles.boxStyling}>
                             <div style={{padding:'0 0 30px'}}>
@@ -34,7 +32,7 @@ const ContactMe = () => {
                                     </div>
                                     <div>
                                         <Typography color='white' sx={{fontSize:'1.7em',padding:'0px 20px 10px'}}>Sourjya Swarup Pradhan</Typography>
-                                        <Typography color='gray' variant="subtitle1" sx={{padding:'5px 20px 5px 10px'}}>Bangalore, Karnataka, India-560037</Typography>
+                                        <Typography color='white' variant="subtitle1" sx={{padding:'5px 20px 5px 10px'}}>Bangalore, Karnataka, India-560037</Typography>
                                     </div>
                                 </div>
                                 <div style={{marginTop:'30px'}}>

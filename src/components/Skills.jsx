@@ -1,8 +1,6 @@
 import { ThemeProvider, Typography, createTheme } from "@mui/material";
 import React from "react";
 
-let Bg = require('../images/Nbg.jpg');
-
 const theme = createTheme({
     typography: {
       fontFamily:'Oswald'
@@ -88,7 +86,7 @@ const ProgressBarComp = ({props}) => {
 const Skills = () =>{
     return(
         <ThemeProvider theme={theme}>
-            <div className="topic-container middle-container-image" style={{ backgroundImage:{Bg}}}>
+            <div className="topic-container middle-container-image" >
                 <div style={{marginBottom:'40px'}} id='skills'>
                     <div style={Styles.boxStyling}>
                         <div style={{padding:'0 0 30px'}}>

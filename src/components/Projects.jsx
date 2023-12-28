@@ -2,8 +2,6 @@ import { CssOutlined, ExpandMore, HtmlOutlined, IntegrationInstructionsOutlined,
 import { Accordion, AccordionDetails, AccordionSummary, Chip, ThemeProvider, Typography, createTheme } from "@mui/material";
 import React from "react";
 
-let Bg = require('../images/Nbg.jpg');
-
 const theme = createTheme({
     typography: {
       fontFamily:'Oswald'
@@ -69,7 +67,7 @@ const Projects = () => {
     return(
         <>
             <ThemeProvider theme={theme}>
-                <div className="topic-container middle-container-image" style={{ backgroundImage:{Bg}}}>
+                <div className="topic-container middle-container-image" >
                     <div style={{marginBottom:'40px'}} id='projects'>
                         <div style={Styles.boxStyling}>
                             <div style={{padding:'0 0 30px'}}>
@@ -83,7 +81,7 @@ const Projects = () => {
                                             Digital Bank UI
                                         </Typography>
                                         <div style={Styles.captionStyle}>
-                                            <Typography variant="caption" color='gray' >
+                                            <Typography variant="caption" color='white' >
                                                 Integrated the APIs to ensure real-time updates on the bank's website.
                                                 Actively collaberated and played a key role in delivering a high-quality UI. 
                                             </Typography>
@@ -119,7 +117,7 @@ const Projects = () => {
                                             Ad Manager UI
                                         </Typography>
                                         <div style={Styles.captionStyle}>
-                                            <Typography variant="caption" color='gray' >
+                                            <Typography variant="caption" color='white' >
                                                 Part of the dynamic team which built an in-house Ad Manager on React, serving ads dynamically using
                                                 Backend APIs. Actively contributed to the successful implementation of a robust and user-friendly advertising solution.
                                             </Typography>

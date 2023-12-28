@@ -5,7 +5,6 @@ import { WorkHistory } from "@mui/icons-material";
 import logo from "../images/Logo_vssut.svg";
 import hindiLogo from '../images/hindi-letter.svg';
 
-let Bg = require('../images/Nbg.jpg');
 let schoolIcon = require('../images/school.png');
 let collegeIcon = require('../images/kbrclogo.png');
 let odiaIcon = require('../images/ODIA.png');
@@ -31,7 +30,7 @@ const Personal = () => {
     return(
         <>
            <ThemeProvider theme={theme}>
-                <div className="topic-container middle-container-image" style={{ backgroundImage:{Bg}}}>
+                <div className="topic-container middle-container-image">
                     <div style={{marginBottom:'40px'}} id='personal'>
                         <div style={Styles.boxStyling}>
                             <div style={{padding:'0 0 30px'}}>
@@ -65,10 +64,10 @@ const Personal = () => {
                                                 <TimelineContent 
                                                     sx={{ py: '12px', px: 2, display:'flex',flexDirection:'column' }}
                                                 >
-                                                    <Typography variant="h6" component="span" color='gray' >
+                                                    <Typography variant="h6" component="span" color='white' >
                                                         Software Engineer
                                                     </Typography>
-                                                    <Typography variant="caption" color='gray'> 
+                                                    <Typography variant="caption" color='white'> 
                                                         Jul 2022 - Present · 1 yr 6 mos - Bengaluru, Karnataka, India
                                                     </Typography>
                                                 </TimelineContent>
@@ -93,22 +92,22 @@ const Personal = () => {
                                                 <TimelineContent 
                                                     sx={{ py: '12px', px: 2, display:'flex',flexDirection:'column' }}
                                                 >
-                                                    <Typography variant="h6" component="span" color='gray' >
+                                                    <Typography variant="h6" component="span" color='white' >
                                                         Technology Analyst
                                                     </Typography>
-                                                    <Typography variant="caption" color='gray'> 
+                                                    <Typography variant="caption" color='white'> 
                                                         Aug 2021 - Jul 2022 · 1 yr
                                                     </Typography>
-                                                    <Typography variant="h6" component="span" color='gray' >
+                                                    <Typography variant="h6" component="span" color='white' >
                                                         Senior System Engineer
                                                     </Typography>
-                                                    <Typography variant="caption" color='gray'> 
+                                                    <Typography variant="caption" color='white'> 
                                                         Jun 2020 - Aug 2021 · 1 yr 3 mos
                                                     </Typography>
-                                                    <Typography variant="h6" component="span" color='gray' >
+                                                    <Typography variant="h6" component="span" color='white' >
                                                         System Engineer
                                                     </Typography>
-                                                    <Typography variant="caption" color='gray'> 
+                                                    <Typography variant="caption" color='white'> 
                                                         Jun 2018 - May 2020 · 2 yrs
                                                     </Typography>
                                                 </TimelineContent>
@@ -116,7 +115,7 @@ const Personal = () => {
                                         </Timeline>
                                 </div>
                                 {/* TimeLine Section ends */}
-                                <div style={{ display:'flex',justifyContent:'space-between',flexDirection:'row',columnGap:'12px',paddingLeft:'8px',paddingRight:'8px'}}>
+                                <div style={{ display:'flex',justifyContent:'space-between',flexDirection:'row',columnGap:'12px',paddingLeft:'8px',paddingRight:'8px',flexWrap:'wrap'}}>
                                     <div style={{display:'inline-block'}} id="Education">
                                         <div style={{fontSize:'1.4em',padding:'20px',color:'white'}}>
                                             Education
@@ -127,15 +126,15 @@ const Personal = () => {
                                                     <img style={{height:'60px',padding:'5px'}} src={logo} alt="Vssut Burla"/>
                                                 </div>
                                                 <div style={{paddingLeft:'8px'}}>
-                                                    <Typography sx={{fontSize:'1em'}} color='gray'>Bachelor of Technology</Typography>
+                                                    <Typography sx={{fontSize:'1em'}} color='white'>Bachelor of Technology</Typography>
                                                     <div style={{display:'flex',flexDirection:'row',columnGap:'8px',alignItems:'baseline'}}>
-                                                        <Typography variant="caption" color='gray'>Veer Surendra Sai University & Technology, Burla</Typography>
+                                                        <Typography variant="caption" color='white'>Veer Surendra Sai University & Technology, Burla</Typography>
                                                         <a href="https://www.vssut.ac.in/" target="_blank" rel="noreferrer">↗</a>
                                                     </div>
                                                     <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}>
-                                                        <Typography variant="caption" color='gray'>2014 - 2018</Typography>
+                                                        <Typography variant="caption" color='white'>2014 - 2018</Typography>
                                                         <div style={{display:'inline-block',float:'right'}}>
-                                                            <Typography variant="caption" color='gray'>8.40</Typography>
+                                                            <Typography variant="caption" color='white'>8.40</Typography>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -147,15 +146,15 @@ const Personal = () => {
                                                     <img style={{height:'60px',padding:'5px'}} src={collegeIcon} alt="KBRC Cuttack"/>
                                                 </div>
                                                 <div style={{paddingLeft:'8px'}}>
-                                                    <Typography sx={{fontSize:'1em'}} color='gray'>Higher Secondary School</Typography>
+                                                    <Typography sx={{fontSize:'1em'}} color='white'>Higher Secondary School</Typography>
                                                     <div style={{display:'flex',flexDirection:'row',columnGap:'8px',alignItems:'baseline'}}>
-                                                        <Typography variant="caption" color='gray'>Kalinga Bharati Residential College, Cuttack</Typography>
+                                                        <Typography variant="caption" color='white'>Kalinga Bharati Residential College, Cuttack</Typography>
                                                         <a href="https://www.kalingabharati.com/" target="_blank" rel="noreferrer">↗</a>
                                                     </div>
                                                     <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}>
-                                                        <Typography variant="caption" color='gray'>2011 - 2013</Typography>
+                                                        <Typography variant="caption" color='white'>2011 - 2013</Typography>
                                                         <div style={{display:'inline-block',float:'right'}}>
-                                                            <Typography variant="caption" color='gray'>80%</Typography>
+                                                            <Typography variant="caption" color='white'>80%</Typography>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -166,14 +165,14 @@ const Personal = () => {
                                                     <img style={{height:'60px',padding:'5px'}} src={schoolIcon} alt="Vssut Burla"/>
                                                 </div>
                                                 <div style={{paddingLeft:'8px'}}>
-                                                    <Typography sx={{fontSize:'1em'}} color='gray'>Secondary School</Typography>
+                                                    <Typography sx={{fontSize:'1em'}} color='white'>Secondary School</Typography>
                                                     
-                                                        <Typography variant="caption" color='gray'>Angul High School, Angul</Typography>
+                                                        <Typography variant="caption" color='white'>Angul High School, Angul</Typography>
                                               
                                                     <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}>
-                                                        <Typography variant="caption" color='gray'>2008 - 2011</Typography>
+                                                        <Typography variant="caption" color='white'>2008 - 2011</Typography>
                                                         <div style={{display:'inline-block',float:'right'}}>
-                                                            <Typography variant="caption" color='gray'>8.40</Typography>
+                                                            <Typography variant="caption" color='white'>8.40</Typography>
                                                         </div>
                                                     </div>
                                                 </div>

@@ -11,13 +11,13 @@ const theme = createTheme({
     }
 });
 
-const AboutMe = ({darkMode='true'}) => {
+const AboutMe = () => {
     return(
         <ThemeProvider theme={theme}>
             <div className='middle-container-image'>
                 <div className='aboutUs-bg'>
-                    <div>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <div className='box-container'>
+                    <Card>
                         <CardMedia
                             component="img"
                             alt="green iguana"
@@ -38,8 +38,8 @@ const AboutMe = ({darkMode='true'}) => {
                     </Card>
                     </div>
 
-                    <div>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <div className='box-container'>
+                    <Card>
                         <CardMedia
                             component="img"
                             alt="green iguana"
@@ -59,8 +59,8 @@ const AboutMe = ({darkMode='true'}) => {
                     </Card>
                     </div>
                     
-                    <div>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <div className='box-container'>
+                    <Card>
                         <CardMedia
                             component="img"
                             alt="green iguana"

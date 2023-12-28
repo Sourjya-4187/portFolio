@@ -6,10 +6,10 @@ let linkedinImage = require('../images/linkedin.png');
 let githubImage = require('../images/github.png');
 let gmailImage = require('../images/gmail.png')
 
-const TitleCard = ({darkMode='true'}) => {
+const TitleCard = () => {
     return(
         <>
-            <div className={darkMode ? 'topBoxDark' : 'topBoxWhite'}>
+            <div className='topBoxDark'>
                 <div className='image-box'>
                         <img className='dp' src={titleCardPhoto} alt="Preview Not Available" />
                     <svg 

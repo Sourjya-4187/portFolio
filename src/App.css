@@ -25,14 +25,7 @@ body {
 .topBoxDark {
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    background-image: url('../src/images/Nbg.jpg');
-    overflow: hidden;
-}
-
-.topBoxWhite {
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    background-image: url('../src/images/Nbg.jpg');
+    background-color: #1c0203;
     overflow: hidden;
 }
 
@@ -68,14 +61,9 @@ body {
     top: 73%;
 }
 
-.mainBodyDark {
+.mainBody {
     padding: 40px 250px;
     background-color: #02021f;
-}
-
-.mainBodyWhite {
-    padding: 40px 250px;
-    background-color: white;
 }
 
 .title {
@@ -86,11 +74,11 @@ body {
 
 .name {
     font-size: 2.5em;
-    color: gray;
+    color: white;
 }
 
 .subtitle {
-    color: gray;
+    color: white;
     font-size: 1.1em;
     text-align: justify;
 }
@@ -102,11 +90,11 @@ body {
 .topic-container {
     position: relative;
     margin-top: 40px;
-    background-image: url('./images/Nbg.jpg');
+    background-color: #1c0203;
 }
 
 @media only screen and (max-width : 1366px) {
-    .main {
+    .mainBody {
         padding: 40px 100px;
     }
 
@@ -121,7 +109,7 @@ body {
 
 
 @media only screen and (max-width : 1200px) {
-    .main {
+    .mainBody {
         padding: 40px 100px;
     }
 
@@ -135,7 +123,7 @@ body {
 }
 
 @media only screen and (max-width : 920px) {
-    .main {
+    .mainBody {
         padding: 42px 50px;
     }
 
@@ -153,8 +141,9 @@ body {
 }
 
 @media only screen and (max-width : 768px) {
-    .main {
+    .mainBody {
         padding: 0;
+        text-align: center;
     }
 
     .footer-image {
@@ -168,10 +157,6 @@ body {
     .title {
         width: 100%;
         margin: 0px;
-    }
-
-    .main {
-        text-align: middle-container-image;
     }
 
     .image-box {
@@ -210,11 +195,15 @@ body {
     .topBoxWhite{
         box-shadow: none;
     }
-
 }
 
 
 @media only screen and (max-width : 460px) {
+    .mainBody {
+        padding: 0;
+        text-align: center;
+        background-color: #1c0203;
+    }
     .random3 {
         left: 45%;
         bottom: -96%;
@@ -232,6 +221,13 @@ body {
         right: 0px;
         height: 23vh;
 
+    }
+
+    .aboutUs-bg {
+        flex-direction: column;
+      }
+    .box-container {
+        margin-bottom: 20px;
     }
 }
 
@@ -272,12 +268,18 @@ body {
 }
 
 .aboutUs-bg {
-    background-image: url('../src/images/Nbg.jpg');
-    margin-top: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 16px;
-    padding:48px
+    background-color: #1c0203;
+    margin-top: 20px;
+    padding:48px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box-container {
+    flex: 1 1 0px;
+    padding: 20px;
+    text-align: center;
 }
 
 .paper-icon {
