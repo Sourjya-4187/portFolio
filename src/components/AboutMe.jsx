@@ -25,15 +25,18 @@ const AboutMe = () => {
                             src={skillsSvg}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h4" component="div">
                                 Skills
                             </Typography>
                         </CardContent>
-                        <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content'}}>
+                        <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content',alignItems:'baseline'}}>
                             <a href='#Web Technologies' className='anchor-links'>Web Technologies</a>
                             <a href='#Libraries and Software' className='anchor-links'>Libraries and Software</a>
                             <a href='#Operations' className='anchor-links'>Operations</a>
                             <a href='#JS Bundlers' className='anchor-links'>JS Bundlers</a>
+                            <div style={{alignSelf:'flex-end'}} className='explore'>
+                                <a href='#skills'>Explore.</a>
+                            </div>
                         </CardActions>
                     </Card>
                     </div>
@@ -47,13 +50,16 @@ const AboutMe = () => {
                             src={projectSvg}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h4" component="div">
                                 Projects
                             </Typography>
                         </CardContent>
-                        <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content'}}>
+                        <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content',alignItems:'baseline'}}>
                             <a href='#Digital Bank UI' className='anchor-links'>Digital Bank UI</a>
                             <a href='#Ad Manager UI' className='anchor-links'>Ad Manager UI</a>
+                            <div style={{alignSelf:'flex-end'}} className='explore'>
+                                <a href='#projects'>Explore.</a>
+                            </div>
 
                         </CardActions>
                     </Card>
@@ -68,16 +74,19 @@ const AboutMe = () => {
                             src={aboutMeSvg}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h4" component="div">
                                 About Me
                             </Typography>
                         </CardContent>
-                        <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content'}}>
+                        <CardActions style={{display:'flex',flexDirection:'column',minHeight:'161px',maxHeight:'max-content',alignItems:'baseline'}}>
                             <a href='#Interests' className='anchor-links'>Interests</a>
                             <a href='#Education' className='anchor-links'>Education</a>
                             <a href='#Work Experience TimeLine' className='anchor-links'>Work Experience TimeLine</a>
                             <a href='#Languages' className='anchor-links'>Languages</a>
                             <a href='#Contact' className='anchor-links'>Contact Me</a>
+                            <div style={{alignSelf:'flex-end'}} className='explore'>
+                                <a href='#personal'>Explore.</a>
+                            </div>
                         </CardActions>
                     </Card>
                     </div>

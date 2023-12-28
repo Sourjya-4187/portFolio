@@ -298,6 +298,24 @@ body {
 .anchor-links {
     text-decoration: none;
     color: black;
+    background: linear-gradient(to right, #fff 25%, #2d9687 0, #2d9687 50%, #e9b171 0, #e9b171 75%, #e2b8aa 0);
+    background-size: 500%; /* Set background size to twice the width */
+    transition: background-position 0.3s ease; /* Add a smooth transition to background position */
+    display: inline-block;
+}
+
+.anchor-links:hover {
+    background-position: -100% 0
+}
+
+.explore a {
+    color: #0e2a47;
+    text-decoration: underline overline;
+    text-underline-offset: 5px;
+}
+
+.explore a:hover {
+    color: #3498db;
 }
   
   .progress {
