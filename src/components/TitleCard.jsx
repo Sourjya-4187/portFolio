@@ -54,9 +54,7 @@ const TitleCard = () => {
                 <div className='title'>
                     <h1 className="name">Sourjya Swarup Pradhan</h1>
                     <p className="subtitle">
-                        UI Developer with 3+ years of experience building engaging interfaces using React, JavaScript, HTML, CSS, and MUI. 
-                        Expertise in client-side, server-side, and micro frontend applications. Ability to deliver solutions for complex issues under pressure. 
-                        Collaborate with UX designers to transform user needs into visually stunning and functionally sound interfaces.
+                    Experienced UI Developer proficient in crafting captivating interfaces utilizing React, JavaScript, HTML, CSS, and MUI. Specialized in developing client-side, server-side, and micro frontend applications. Demonstrated capability in resolving intricate issues efficiently, even in high-pressure environments. Adept at collaborating closely with UX designers to translate user requirements into visually striking and highly functional interfaces.
                     </p>
                 </div>
             </div>
